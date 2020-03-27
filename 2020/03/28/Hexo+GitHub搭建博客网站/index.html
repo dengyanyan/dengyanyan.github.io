@@ -14,7 +14,7 @@
 <meta property="og:description" content="github 个人博客搭建系统环境配置： Hexo+Nodejs+Git   安装 node.js node -v 版本信息  安装 git git –version 版本信息  注册 github账号   git 连接github配置： 配置SSH key:1ssh-keygen -t rsa -C &quot;邮件地址&quot; 测试是否成功:1ssh -T git@github.com">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-27T18:39:33.326Z">
-<meta property="article:modified_time" content="2020-03-27T18:39:33.330Z">
+<meta property="article:modified_time" content="2020-03-27T18:57:09.852Z">
 <meta property="article:author" content="Andy">
 <meta name="twitter:card" content="summary">
 
@@ -22,8 +22,6 @@
 <link rel="icon" href="/img/avatar.jpg">
 
 <link href="/css/style.css?v=1.0.1" rel="stylesheet">
-
-<link href="/css/hl_theme/darcula.css?v=1.0.1" rel="stylesheet">
 
 <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -163,7 +161,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-03-28 02:39:33'>2020-03-28 02:39</time>
+        创建时间:<time class="date" title='更新时间: 2020-03-28 02:57:09'>2020-03-28 02:39</time>
         
     </div>
     <div class="article-meta">
@@ -234,9 +232,9 @@
 <li><p>安装个人博客<br>进入到 你本地的博客存放路径，例如 F:\hexo\blog</p>
 </li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 进入本地博客存放目录</span><br><span class="line">$ cd f:</span><br><span class="line">$ cd hexo&#x2F;blog&#x2F;</span><br><span class="line"># 初始化 个人博客</span><br><span class="line">$ hexo init #等待一段时间</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 进入本地博客存放目录</span><br><span class="line">cd f:</span><br><span class="line">cd hexo&#x2F;blog&#x2F;</span><br><span class="line">&#x2F;&#x2F; 初始化 个人博客</span><br><span class="line">hexo init #等待一段时间</span><br></pre></td></tr></table></figure>
 <p>初始化完成以后，会生成以下目录：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    &#x2F;&#x2F; 生成静态网页</span><br><span class="line">hexo s    &#x2F;&#x2F; 执行完以后，你就可以去打开 http:&#x2F;&#x2F;localhost:4000&#x2F;  看本地版的博客效果了。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    &#x2F;&#x2F; 生成静态网页</span><br><span class="line">hexo s    &#x2F;&#x2F; 执行完以后，打开 http:&#x2F;&#x2F;localhost:4000&#x2F;  ,查看预览效果.</span><br></pre></td></tr></table></figure>
 
 <p>修改主题：<br><a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">https://github.com/yelog/hexo-theme-3-hexo</a></p>
 <p>下载主题：</p>
@@ -246,11 +244,11 @@
 
 
 
-<h3 id="部署到GitHub上："><a href="#部署到GitHub上：" class="headerlink" title="部署到GitHub上："></a>部署到GitHub上：</h3><p>修改站点目录的 _config.yml 文件，在最后添加</p>
+<h3 id="部署到GitHub上："><a href="#部署到GitHub上：" class="headerlink" title="部署到GitHub上："></a>部署到GitHub上：</h3><p>修改站点目录的<code>_config.yml</code>文件，在最后添加</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;xxx&#x2F;xxx.github.io.git  #填github地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
 <p>然后在命令行中执行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#提交到github</span><br><span class="line">$ hexo d</span><br><span class="line">#注意需要提前安装一个扩展：</span><br><span class="line">$ cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 提交到github</span><br><span class="line">hexo d</span><br><span class="line">&#x2F;&#x2F; 注意需要提前安装一个扩展：</span><br><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 <p>到此，基本就搭建完毕。</p>
 <h2 id="开始写作"><a href="#开始写作" class="headerlink" title="开始写作"></a>开始写作</h2><p>新建文章，输入以下命令即可</p>
@@ -279,7 +277,7 @@
     
     <p><span class="copy-title">本文作者:</span><a  title="Andy">Andy</a></p>
     <p><span class="copy-title">发布时间:</span>2020-03-28, 02:39:33</p>
-    <p><span class="copy-title">最后更新:</span>2020-03-28, 02:39:33</p>
+    <p><span class="copy-title">最后更新:</span>2020-03-28, 02:57:09</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/03/28/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" title="Hexo+GitHub搭建博客网站">https://dengyanyan.github.io/2020/03/28/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
@@ -340,20 +338,6 @@
 
         /*高亮代码块行号*/
         
-        $('pre code').each(function(){
-            var lines = $(this).text().trim().split('\n').length, widther='';
-            if (lines>99) {
-                widther = 'widther'
-            }
-            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
-            $(this).addClass('has-numbering ' + widther)
-                    .parent()
-                    .append($numbering);
-            for(var i=1;i<=lines;i++){
-                $numbering.append($('<li/>').text(i));
-            }
-        });
-        
 
         /*访问数量*/
         
@@ -392,38 +376,6 @@
 </script>
 
 <!--加入行号的高亮代码块样式-->
-
-<style>
-    pre{
-        position: relative;
-        margin-bottom: 24px;
-        border-radius: 10px;
-        border: 1px solid #e2dede;
-        background: #FFF;
-        overflow: hidden;
-    }
-    code.has-numbering{
-        margin-left: 30px;
-    }
-    code.has-numbering.widther{
-        margin-left: 35px;
-    }
-    .pre-numbering{
-        margin: 0px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 20px;
-        padding: 0.5em 3px 0.7em 5px;
-        border-right: 1px solid #C3CCD0;
-        text-align: right;
-        color: #AAA;
-        background-color: ;
-    }
-    .pre-numbering.widther {
-        width: 35px;
-    }
-</style>
 
 <!--自定义样式设置-->
 <style>
@@ -525,16 +477,6 @@
     }
     
 
-    
-    .post .pjax article :not(pre) > code {
-        color: #24292e;
-        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-        background-color: rgba(27,31,35,.05);
-        border-radius: 3px;
-        font-size: 85%;
-        margin: 0;
-        padding: .2em .4em;
-    }
     
 </style>
 
