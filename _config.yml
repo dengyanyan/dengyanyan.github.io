@@ -80,7 +80,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: http://github.com/dengyanyan/dengyanyan.github.io.git
+  repo: git@github.com:dengyanyan/dengyanyan.github.io.git
   branch: master
 
 # Post wordcount display settings
