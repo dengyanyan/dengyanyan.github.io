@@ -3,7 +3,7 @@ title: Hexo+GitHub搭建博客网站
 date: 2020-03-28 03:13:02
 tags: Hexo
 categories: [工具,Hexo]
-thumbnail: /gallery/thumbnails/blog.jpg
+thumbnail:
 toc: true
 ---
 
