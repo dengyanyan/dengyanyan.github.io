@@ -1,6 +1,7 @@
 ---
 title: AS插件-custom postfixTemplates
 categories: 
+- 工具
 - 插件
 tags: 
 - 插件

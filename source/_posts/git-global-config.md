@@ -1,6 +1,7 @@
 ---
 title: git配置
 categories: 
+- 工具
 - git
 tags: 
 - git

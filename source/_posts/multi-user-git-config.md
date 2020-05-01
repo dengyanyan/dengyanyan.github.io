@@ -2,8 +2,11 @@
 title: git多用户配置
 toc: true
 date: 2020-03-28 19:10:01
-categories: [git]
-tags: [git]
+categories: 
+- 工具
+- git
+tags: 
+- git
 thumbnail: 
 ---
 
