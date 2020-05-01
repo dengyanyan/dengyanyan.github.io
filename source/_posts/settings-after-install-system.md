@@ -2,8 +2,11 @@
 title: 系统重装后优化设置和常用应用
 toc: true
 date: 2020-03-28 20:41:18
-categories: [系统]
-tags: [Win10]
+categories: 
+- 系统
+- Win10
+tags: 
+- Win10
 thumbnail:
 ---
 系统重装后，优化设置和常用应用安装。
@@ -34,7 +37,6 @@ thumbnail:
 4. 常用应用
 
    - clover
-
    - everything
    - notepad++
    - snipaste
@@ -51,3 +53,5 @@ thumbnail:
    - Android
    - SDK
    - git
+
+移动桌面位置后，AS弹窗桌面图标不可用了，还是不要移动了，经常做文件整理吧。

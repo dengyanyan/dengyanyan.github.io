@@ -2,8 +2,10 @@
 title: computer-fix
 toc: true
 date: 2020-03-28 19:10:01
-categories: [系统]
-tags: [装机]
+categories: 
+- 系统
+tags: 
+- 装机
 thumbnail: 
 ---
 
