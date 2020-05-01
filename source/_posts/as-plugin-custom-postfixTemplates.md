@@ -1,9 +1,9 @@
 ---
 title: AS插件-custom postfixTemplates
 categories: 
-- plugin
+- 插件
 tags: 
-- plugin
+- 插件
 toc: true
 ---
 
