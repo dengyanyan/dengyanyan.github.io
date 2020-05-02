@@ -2,7 +2,7 @@
 title: ubuntu 18.04系统分区
 categories: 
 - 系统
-- Liunx
+- Ubuntu
 tags: 
 - Ubuntu
 toc: true

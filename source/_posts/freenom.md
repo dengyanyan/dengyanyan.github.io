@@ -1,9 +1,10 @@
 ---
 title: freenom
 toc: true
-date: 2020-03-28 21:18:49
-categories: [工具]
-tags: [域名]
+categories: 
+- 工具
+tags: 
+- 域名
 thumbnail:
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: 系统重装后优化设置和常用应用
 toc: true
-date: 2020-03-28 20:41:18
 categories: 
 - 系统
-- Win10
+- Windows
 tags: 
-- Win10
+- Windows
 thumbnail:
 ---
 系统重装后，优化设置和常用应用安装。
