@@ -1,7 +1,7 @@
 ---
 title: 文件检索
 categories: 
-- Ubuntu
+- 工具
 - cmd
 tags: 
 - find
@@ -90,13 +90,14 @@ which executeable_name
     ```
     head -5 /etc/passwd
     ```
-    
+
     - 如果你想查看文件的后10行，可以使用tail命令，如：
+
     ```
-      tail -20 /etc/passwd
-      tail -f /var/log/messages 参数-f使tail不停地去读最新的内容，这样有实时监视的效果
+    tail -20 /etc/passwd
+    tail -f /var/log/messages 参数-f使tail不停地去读最新的内容，这样有实时监视的效果
     ```
-    
+
 -  where is <程序名称>
     查找软件的安装路径
     -b 只查找二进制文件

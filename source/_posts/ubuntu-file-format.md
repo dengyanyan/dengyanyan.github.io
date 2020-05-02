@@ -1,7 +1,8 @@
 ---
 title: 文件格式
 categories: 
-- Ubuntu
+- 工具
+- cmd
 tags: 
 - Ubuntu
 - File

@@ -19,7 +19,8 @@ Ubuntu：
 export ANDROID_ADB_SERVER_PORT=65530
 ```
 
-Windows
+Windows：
 ```
 新建系统环境变量
 ```
+

@@ -1,7 +1,7 @@
 ---
 title: Ubuntu JDK
 categories: 
-- Ubuntu
+- Android
 tags: 
 - jdk
 toc: true

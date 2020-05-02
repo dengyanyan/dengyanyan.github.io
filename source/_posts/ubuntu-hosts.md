@@ -1,15 +1,15 @@
 ---
 title: Ubuntu/Windows修改hosts
 categories: 
-- Ubuntu
-- Windows
+- 系统
+- Others
 tags: 
 - hosts
 toc: true
 ---
 
 
-Quick-Start
+Ubuntu/Windows修改hosts
 
 <!-- more --> 
 

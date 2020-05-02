@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 常用解压与压缩命令
 categories:
-- Liunx
+- 工具
 - cmd
 tags: 
 - zip
