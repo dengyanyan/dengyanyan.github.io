@@ -1,7 +1,7 @@
 ---
 title: Ubuntu下的everything-Fsearch
 categories: 
-- Ubuntu
+- 工具
 - App
 tags: 
 - App

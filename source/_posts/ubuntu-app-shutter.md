@@ -1,7 +1,7 @@
 ---
 title: Ubuntu下的截图软件-Shutter
 categories: 
-- Ubuntu
+- 工具
 - App
 tags: 
 - App
